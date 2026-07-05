@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 120vh;
+    background: linear-gradient(to bottom right, navy, ghostwhite);
+    display: flex;
+    justify-content: center;
+}
+#menu-icon{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: none;
+    top: 20px;
+    left: 20px;
+}
+.icons:hover{
+    cursor: pointer;
+    border: 1px solid ghostwhite;
+    border-radius: 0.2rem;
+}
+.nav-bar{
+    height: 100vh;
+    width: 300px;
+    border: 1px solid white;
+    overflow: none;
+    position: fixed;
+    padding: 0.5rem 1rem;
+    left: -350px;
+    transition: all 0.5s linear 0s;
+}
+.profile-logo-area{
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px white;
+    padding: 0.5rem;
+}
+.profile-logo-area div i{
+    font-size: 2rem;
+    color: white;
+}
+.user-name{
+    padding-left: 1rem;
+    color: white;
+}
+#cross-icon{
+    font-size: 1rem;
+    position: absolute;
+    right: 1.25rem;
+    top: 1.75rem;
+}
+.extra-info{
+    list-style-type: none;
+    color: white;
+    margin-top: 2.5rem;
+}
+.extra-info li{
+    padding: 0.45rem 0.75rem;
+    font-size: 1.15rem;
+    box-shadow: 1px 1px 4px white;
+    margin: 0.5rem;
+}
+.extra-info li:hover{
+    box-shadow: 1px 1px 6px white;
+}
+.extra-info li a{
+    color: white;
+    text-decoration: none;
+}
+.social-media{
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+.social-media i{
+    color: white;
+    margin: 0.25rem;
+}
+.social-media i:hover{
+    transform: scale(1.2);
+}
+.icon-move{
+    visibility: hidden;
+}
+.slide{
+    left: 0px;
+}
+
+.main-page{
+    width: 700px;
+    background-color: white;
+    margin-top: 5rem;
+    /* overflow: scroll; */
+
+}
+.top-section{
+    height: 40%;
+    /* border-bottom: 1px solid black; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: linear-gradient(to bottom left, white, navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.my-image{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+.profile-pic{
+    text-align: center;
+}
+.profile-pic h4{
+    font-size: 2rem;
+    cursor: pointer;
+} 
+.education{
+    border: 2px solid black;
+    text-align: center;
+}
+.education td, th{
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+.main-sec{
+    display: flex;
+    justify-content: center;
+}
