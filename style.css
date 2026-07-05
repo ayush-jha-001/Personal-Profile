@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    height: 120vh;
+    /* height: 120vh; */
     background: linear-gradient(to bottom right, navy, ghostwhite);
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 #menu-icon{
     color: white;
@@ -96,11 +97,12 @@ body{
     width: 700px;
     background-color: white;
     margin-top: 5rem;
+    padding-bottom: 3rem;
     /* overflow: scroll; */
 
 }
 .top-section{
-    height: 40%;
+    height: 300px;
     /* border-bottom: 1px solid black; */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -126,6 +128,8 @@ body{
 .education{
     border: 2px solid black;
     text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 .education td, th{
     border: 1px solid black;
@@ -133,5 +137,15 @@ body{
 }
 .main-sec{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    flex: 1;
+    padding: 0.75rem 2rem;
+}
+li{
+    display: flex;
+    margin: 0.5rem 0.5rem;
+}
+h4{
+    margin-right: 0.5rem;
 }
