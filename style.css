@@ -98,6 +98,8 @@ body{
     background-color: white;
     margin-top: 5rem;
     padding-bottom: 3rem;
+    background: linear-gradient(to bottom, white, #b7b7e6b5);
+    
     /* overflow: scroll; */
 
 }
@@ -118,9 +120,11 @@ body{
     border-radius: 50%;
     cursor: pointer; 
 }
+
 .profile-pic{
     text-align: center;
 }
+
 .profile-pic h4{
     font-size: 2rem;
     cursor: pointer;
